@@ -25,7 +25,7 @@ public class HDFSServer {
         Configuration conf = new Configuration();
         /* 指定HDFS地址 */
         conf.set("fs.defaultFS", "hdfs://192.168.249.100:9000/");
-        /* 获取操作HDFS的对象 */
+        /* 获取操作HDFS的对象  */
         this.fs = FileSystem.get(conf);
     }
 
